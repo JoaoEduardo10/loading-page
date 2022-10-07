@@ -35,6 +35,8 @@ lista.forEach((item) => item.addEventListener('click', function(){
 
         menu.classList.add('desativado')
         menu.classList.remove('menu-ativo')
+        menuBar.classList.add('menubarAtivo')
+        menuBar.classList.remove('desativado')
     
         clearMenu.style.display = "none"
 
